@@ -8,6 +8,7 @@
 ::change input file names
 set zip1=EMailSender-2.0.1.zip
 set zip2=EMailSender-2.0.0.zip
+set zip3=EMailSender-0.1.zip
 
 ::out put text file
 set out=package_xiaolaba_EMailSender-zip.sha256.txt
@@ -29,6 +30,13 @@ for %%A in (%zip2%) do echo.%%A file size = %%~zA >> %out%
 :: empty line
 @echo. >> %out%
 
+
+:: sha256 hash
+CertUtil -hashfile %zip3% SHA256 >> %out%
+:: file size
+for %%A in (%zip3%) do echo.%%A file size = %%~zA >> %out%
+:: empty line
+@echo. >> %out%
 
 ::show each zip file
 forfiles /s /m *.zip /c "cmd /c echo @path"
