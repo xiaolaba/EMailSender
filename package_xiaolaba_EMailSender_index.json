@@ -14,10 +14,10 @@
 
         {
           "name": "EMailSender",
-          "architecture": "ESP",
+          "architecture": "esp",
           "version": "2.0.1",
           "category": "Contributed",
-          "url": "https://xiaolaba.github.io/EMailSender/release/EMailSender-2.0.1.zip",
+          "url": "https://github.com/xreef/EMailSender/archive/v2.0.1.zip",
           "archiveFileName": "EMailSender-2.0.1.zip",
           "checksum": "SHA-256:01844730ecbd5e210d285e1bc2748ad6fc9f3f76b1cac9f355e1dbf93ad60dac",
           "size": "80011",
@@ -34,7 +34,7 @@
         
         {
           "name": "EMailSender",
-          "architecture": "ESP",
+          "architecture": "esp",
           "version": "2.0.0",
           "category": "Contributed",
           "url": "https://xiaolaba.github.io/EMailSender/release/EMailSender-2.0.0.zip",
@@ -50,7 +50,30 @@
             }
           ],
           "toolsDependencies": []
+        },
+        
+        {
+          "name": "EMailSender",
+          "architecture": "esp",
+          "version": "0.1",
+          "category": "Contributed",
+          "url": "https://github.com/xiaolaba/EMailSender/archive/v0.1.zip",
+          "archiveFileName": "EMailSender-0.1.zip",
+          "checksum": "SHA-256:512d5b3d722b1313aa3541e7c1194a29523a2fc56ac020f1fa49adfc2ce77e83",
+          "size": "207738",
+          "boards": [
+            {
+              "name": "ESP32"
+            },
+            {
+              "name": "ESP8266"
+            }
+          ],
+          "toolsDependencies": []
         }
+               
+        
+        
       ],
       "tools": []
     }
