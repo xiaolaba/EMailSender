@@ -1,0 +1,15 @@
+SHA256 的 EMailSender-2.0.1.zip 雜湊:
+bd2d520ec8b14936235f0c8a74b0e680af39b859c63f8a2b4353486f5fe83160
+CertUtil: -hashfile 命令成功完成。
+EMailSender-2.0.1.zip file size = 80061 
+ 
+SHA256 的 EMailSender-2.0.0.zip 雜湊:
+a967511bac1472f31da2864b3d96a757f306b525e07bd5b529cc40d2263cc2d7
+CertUtil: -hashfile 命令成功完成。
+EMailSender-2.0.0.zip file size = 79779 
+ 
+SHA256 的 EMailSender-0.1.zip 雜湊:
+c3542d209aa097d753b036658d5c7af1f2db317ee6dc4a1cc889de81f989769a
+CertUtil: -hashfile 命令成功完成。
+EMailSender-0.1.zip file size = 207429 
+ 
